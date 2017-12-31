@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project BANG</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_Feed">Feed</string>
+    <string name="title_Library">Library</string>
+</resources>
