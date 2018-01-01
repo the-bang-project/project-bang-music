@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProjectBANG2.iml" filepath="$PROJECT_DIR$/ProjectBANG2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\jamal\Documents\GitHub\project-bang-music\app\app.iml" filepath="C:\Users\jamal\Documents\GitHub\project-bang-music\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-bang-music.iml" filepath="$PROJECT_DIR$/project-bang-music.iml" />
     </modules>
   </component>
 </project>
