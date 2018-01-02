@@ -2,7 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="Website"
-        <!-- android:onClick="openWebsite" -->
         android:id="@+id/website"></item>
     <item android:title="Settings"
         android:id="@+id/settings"></item>

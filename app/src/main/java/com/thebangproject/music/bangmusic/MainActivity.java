@@ -54,18 +54,23 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    //@Override
-    //public boolean onOptionsItemSelected(MenuItem item) {
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
 
-    //    int id = item.getItemId();
+        int id = item.getItemId();
 
-    //    switch (id)
-    //    {
-    //        case R.id.website:
-    //            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.the-bang-project.business.site"));
-    //            startActivity(browserIntent);
-    //    }
+        switch (id)
+        {
+            case R.id.website:
+                Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
+        }
 
-    //    return true;
-    //}
+        switch (id)
+        {
+            case R.id.settings:
+                Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
+        }
+
+        return true;
+    }
 }
