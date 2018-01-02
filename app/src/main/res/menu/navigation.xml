@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/blueperson"
-        android:title="Me" />
+
 
     <item
         android:id="@+id/navigation_Feed"
@@ -12,8 +9,18 @@
         android:title="@string/title_Feed" />
 
     <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/bluesearch"
+        android:title="Search" />
+
+    <item
         android:id="@+id/navigation_Library"
         android:icon="@drawable/music"
         android:title="@string/title_Library" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/bluesettings"
+        android:title="Settings" />
 
 </menu>

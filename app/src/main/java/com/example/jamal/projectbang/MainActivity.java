@@ -11,25 +11,32 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
 
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener;
 
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
-                    return true;
-                case R.id.navigation_Feed:
-                    mTextMessage.setText(R.string.title_dashboard);
-                    return true;
-                case R.id.navigation_Library:
-                    mTextMessage.setText(R.string.title_Library);
-                    return true;
+    {
+        mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.navigation_home:
+                        mTextMessage.setText(R.string.title_home);
+                        return true;
+                    case R.id.navigation_Feed:
+                        mTextMessage.setText(R.string.title_Feed);
+                        return true;
+                    case R.id.navigation_Library:
+                        mTextMessage.setText(R.string.title_Library);
+                        return true;
+                    case R.id.navigation_search:
+                        mTextMessage.setText(R.string.title_Search);
+                        return true;
+
+                }
+                return false;
             }
-            return false;
-        }
-    };
+        };
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
