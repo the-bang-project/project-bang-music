@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_feed:
-                    mTextMessage.setText(R.string.title_feed);
+                    mTextMessage.setText(R.string.text_feed);
                     return true;
                 case R.id.navigation_search:
-                    mTextMessage.setText(R.string.title_search);
+                    mTextMessage.setText(R.string.text_search);
                     return true;
                 case R.id.navigation_library:
-                    mTextMessage.setText(R.string.title_library);
+                    mTextMessage.setText(R.string.text_library);
                     return true;
             }
             return false;
