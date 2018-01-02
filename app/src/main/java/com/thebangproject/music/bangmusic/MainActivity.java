@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_library:
                     mTextMessage.setText(R.string.text_library);
                     return true;
-                case R.id.navigation_settings:
-                    mTextMessage.setText(R.string.text_settings);
-                    return true;
+                //case R.id.navigation_settings:
+                //    mTextMessage.setText(R.string.text_settings);
+                //    return true;
             }
             return false;
         }
@@ -69,7 +69,8 @@ public class MainActivity extends AppCompatActivity {
         switch (id)
         {
             case R.id.settings:
-                Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
+                
+                //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
         }
 
         return true;

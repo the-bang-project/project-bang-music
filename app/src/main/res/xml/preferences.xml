@@ -6,4 +6,5 @@
         android:key="example_switch"
         android:summary="Turn this option on or off"
         android:title="Settings option" />
+
 </PreferenceScreen>
