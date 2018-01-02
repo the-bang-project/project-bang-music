@@ -1,4 +1,4 @@
-package com.example.jamal.projectbang;
+package com.thebangproject.music.bangmusic;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.jamal.projectbang", appContext.getPackageName());
+        assertEquals("com.thebangproject.music.bangmusic", appContext.getPackageName());
     }
 }

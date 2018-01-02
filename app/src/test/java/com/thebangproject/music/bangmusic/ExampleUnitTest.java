@@ -1,4 +1,4 @@
-package com.example.jamal.projectbang;
+package com.thebangproject.music.bangmusic;
 
 import org.junit.Test;
 
