@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#90A4AE"
+    android:background="#FFFFFF"
     tools:context="com.thebangproject.music.bangmusic.MainActivity">
 
     <TextView
