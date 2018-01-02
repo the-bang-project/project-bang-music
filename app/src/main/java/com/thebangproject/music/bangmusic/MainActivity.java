@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         switch (id)
         {
             case R.id.settings:
-                
+
                 //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
         }
 
