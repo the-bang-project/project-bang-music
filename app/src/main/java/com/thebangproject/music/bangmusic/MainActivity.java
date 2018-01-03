@@ -31,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_library:
                     mTextMessage.setText(R.string.text_library);
                     return true;
-                //case R.id.navigation_settings:
-                //    mTextMessage.setText(R.string.text_settings);
-                //    return true;
             }
             return false;
         }
