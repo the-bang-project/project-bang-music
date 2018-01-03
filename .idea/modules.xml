@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://C:\Users\jamal\Documents\GitHub\project-bang-music\BangMusic.iml" filepath="C:\Users\jamal\Documents\GitHub\project-bang-music\BangMusic.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\jamal\Documents\GitHub\project-bang-music\app\app.iml" filepath="C:\Users\jamal\Documents\GitHub\project-bang-music\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-bang-music.iml" filepath="$PROJECT_DIR$/project-bang-music.iml" />
     </modules>
   </component>
