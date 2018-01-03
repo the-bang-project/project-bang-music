@@ -1,14 +1,18 @@
 package com.thebangproject.music.bangmusic;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -40,6 +44,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Does not work because the settings page isn't on a button - and its for background colour
+        //SharedPreferences spf = PreferenceManager.getDefaultSharedPreferences(this);
+        //String storeColour = spf.getString(getString(R.string.key_colour),"#3F51B5");
+
+        //RelativeLayout layoutBackC = (RelativeLayout) findViewById(R.id.changeColor);
+        //layoutBackC.setBackgroundColor(Color.parseColor(storeColour));
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);

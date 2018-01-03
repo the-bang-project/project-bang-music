@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+
+    <PreferenceCategory android:title="Appearance">
+
+
+    </PreferenceCategory>
     <android.support.v7.preference.SwitchPreferenceCompat
         android:defaultValue="false"
         android:key="example_switch"
-        android:summary="Enable this for dark mode."
-        android:title="Dark mode" />
+        android:summary="Enable this for a darker theme"
+        android:title="Night mode" />
+
+    <ListPreference
+        android:defaultValue="#3F51B5"
+        android:entries="@array/colour_name"
+        android:entryValues="@array/colour_values"
+        android:key="@string/key_colour"
+        android:title="Accent Colour"
+        android:summary="Choose an accent colour"/>
+
+
+    <PreferenceCategory android:title="Playback">
+
+    </PreferenceCategory>
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="example_switch"
+        android:summary="Enable this for autoplay."
+        android:title="Autoplay next song" />
 
     <android.support.v7.preference.SwitchPreferenceCompat
-        android:defaultValue="true"
+        android:defaultValue="false"
         android:key="example_switch"
         android:summary="Enable this for autoplay."
         android:title="Autoplay next song" />
 
 </PreferenceScreen>
+

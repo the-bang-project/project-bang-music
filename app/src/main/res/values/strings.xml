@@ -2,6 +2,8 @@
     <string name="app_name">Bang Music</string>
     <string name="settings_name">Settings</string>
 
+    <string name="key_colour">accentColour</string>
+
     <string name="title_feed">Feed</string>
     <string name="title_search">Search</string>
     <string name="title_library">Library</string>
