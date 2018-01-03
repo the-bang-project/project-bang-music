@@ -31,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_library:
                     mTextMessage.setText(R.string.text_library);
                     return true;
-                //case R.id.navigation_settings:
-                //    mTextMessage.setText(R.string.text_settings);
-                //    return true;
             }
             return false;
         }
@@ -63,16 +60,25 @@ public class MainActivity extends AppCompatActivity {
         switch (id)
         {
             case R.id.website:
-                Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
+                String url = "http://the-bang-project.business.site";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
         }
 
         switch (id)
         {
             case R.id.settings:
-                
-                //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
         }
 
         return true;
     }
+
+    //public void openSettingsActivity (View view) {
+    //    Intent intent = new Intent(this, SettingsActivity.class);
+    //    startActivity(intent);
+    //}
+
 }

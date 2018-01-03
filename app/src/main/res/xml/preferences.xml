@@ -2,9 +2,15 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="example_switch"
+        android:summary="Enable this for dark mode."
+        android:title="Dark mode" />
+
+    <android.support.v7.preference.SwitchPreferenceCompat
         android:defaultValue="true"
         android:key="example_switch"
-        android:summary="Turn this option on or off"
-        android:title="Settings option" />
+        android:summary="Enable this for autoplay."
+        android:title="Autoplay next song" />
 
 </PreferenceScreen>
