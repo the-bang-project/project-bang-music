@@ -63,7 +63,11 @@ public class MainActivity extends AppCompatActivity {
         switch (id)
         {
             case R.id.website:
-                Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
+                String url = "http://the-bang-project.business.site";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+                //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
         }
 
         switch (id)
