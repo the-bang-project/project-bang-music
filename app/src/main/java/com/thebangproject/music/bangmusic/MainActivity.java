@@ -87,9 +87,9 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    //public void openSettingsActivity (View view) {
-    //    Intent intent = new Intent(this, SettingsActivity.class);
-    //    startActivity(intent);
-    //}
+    public void openMediaPlayer (View view) {
+        Intent intent = new Intent(this, MediaPlayer.class);
+        startActivity(intent);
+    }
 
 }
