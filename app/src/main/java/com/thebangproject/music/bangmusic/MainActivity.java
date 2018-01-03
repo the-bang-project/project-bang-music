@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
-                //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
         }
 
         switch (id)
@@ -75,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.settings:
                 Intent intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
-                //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
         }
 
         return true;
