@@ -66,19 +66,20 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
         }
 
-        //switch (id)
-        //{
-        //    case R.id.settings:
-        //
-        //        //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
-        //}
-        //
+        switch (id)
+        {
+            case R.id.settings:
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+                //Toast.makeText(getApplicationContext(),"Whoops that hasn't been added yet.",Toast.LENGTH_SHORT).show();
+        }
+
         return true;
     }
 
-    public void openSettingsActivity (View view) {
-        Intent intent = new Intent(this, SettingsActivity.class);
-        startActivity(intent);
-    }
+    //public void openSettingsActivity (View view) {
+    //    Intent intent = new Intent(this, SettingsActivity.class);
+    //    startActivity(intent);
+    //}
 
 }
