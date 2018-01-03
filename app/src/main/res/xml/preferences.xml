@@ -31,12 +31,5 @@
         android:summary="Enable this for autoplay."
         android:title="Autoplay next song" />
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="Click the switch button..."
-        />
-
 </PreferenceScreen>
 
