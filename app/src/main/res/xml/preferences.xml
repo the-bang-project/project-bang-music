@@ -9,6 +9,7 @@
     <android.support.v7.preference.SwitchPreferenceCompat
         android:defaultValue="false"
         android:key="example_switch"
+        android:id="@+id/nightSwitch"
         android:summary="Enable this for a darker theme"
         android:title="Night mode" />
 
@@ -30,11 +31,12 @@
         android:summary="Enable this for autoplay."
         android:title="Autoplay next song" />
 
-    <android.support.v7.preference.SwitchPreferenceCompat
-        android:defaultValue="false"
-        android:key="example_switch"
-        android:summary="Enable this for autoplay."
-        android:title="Autoplay next song" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Click the switch button..."
+        />
 
 </PreferenceScreen>
 
