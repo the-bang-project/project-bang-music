@@ -84,12 +84,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
         }
 
+        switch (id)
+        {
+            case R.id.player:
+                Intent intent = new Intent(this, MediaPlayer.class);
+                startActivity(intent);
+        }
+
         return true;
     }
-
-    public void openMediaPlayer (View view) {
-        Intent intent = new Intent(this, MediaPlayer.class);
-        startActivity(intent);
-    }
-
 }

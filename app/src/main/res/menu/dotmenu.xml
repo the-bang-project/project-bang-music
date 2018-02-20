@@ -7,5 +7,8 @@
     <item
         android:id="@+id/settings"
         android:title="Settings"></item>
+    <item
+        android:id="@+id/player"
+        android:title="Player"></item>
 
 </menu>
