@@ -1,4 +1,4 @@
-package com.example.bangmusic;
+package com.bangproject.music;
 
 import android.os.Bundle;
 
