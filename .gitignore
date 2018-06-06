@@ -1,3 +1,14 @@
+# Any prebuilts
+*.apk/
+*.ap_/
+
+# Local settings
+local.properties/
+
+# Logs
+*.log/
+
+# Other
 .DS_Store
 .atom/
 .idea
