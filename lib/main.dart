@@ -8,8 +8,9 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Bang Music',
       theme: new ThemeData(
-        primaryColor: Colors.lightBlue,
+        primaryColor: Colors.blue,
         backgroundColor: Colors.white,
+        textTheme: Theme.of(context).textTheme.apply(bodyColor: Colors.white),
       ),
       home: new MyHomePage(),
     );
@@ -28,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('TestProject'),
+        title: new Text('Homepage'),
       ),
       drawer: new Drawer(
           child: new ListView(
@@ -49,11 +50,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ],
           )
-      ),
-      body: new Center(
-        child: new Text(
-          'Center',
-        ),
       ),
     );
   }
