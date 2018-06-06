@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Bang Music',
       theme: new ThemeData(
-        primaryColor: Colors.blue,
+        primaryColor: Colors.white,
         backgroundColor: Colors.white,
-        textTheme: Theme.of(context).textTheme.apply(bodyColor: Colors.white),
+        textTheme: Theme.of(context).textTheme.apply(bodyColor: Colors.black),
       ),
       home: new MyHomePage(),
     );
