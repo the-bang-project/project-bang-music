@@ -7,6 +7,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Bang Music',
+      theme: new ThemeData(
+        primaryColor: Colors.lightBlue,
+        backgroundColor: Colors.white,
+      ),
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text('Homepage'),
