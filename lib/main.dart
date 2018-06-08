@@ -78,12 +78,12 @@ class MyLibrary extends StatelessWidget {
         title: new Text("My Library"),
       ),
       body: new Center(
-        child: new RaisedButton(
-          onPressed: () {
-            // Navigate back to first screen when tapped!
-          },
-          child: new Text('This is your library.'),
-        ),
+//        child: new RaisedButton(
+//          onPressed: () {
+//            // Navigate back to first screen when tapped!
+//          },
+//          child: new Text('This is your library.'),
+//        ),
       ),
     );
   }
@@ -97,12 +97,12 @@ class SearchScreen extends StatelessWidget {
         title: new Text("Search"),
       ),
       body: new Center(
-        child: new RaisedButton(
-          onPressed: () {
-            // Navigate back to first screen when tapped!
-          },
-          child: new Text('This is your search page.'),
-        ),
+//        child: new RaisedButton(
+//          onPressed: () {
+//            // Navigate back to first screen when tapped!
+//          },
+//          child: new Text('This is your search page.'),
+//        ),
       ),
     );
   }
@@ -116,12 +116,12 @@ class AboutScreen extends StatelessWidget {
         title: new Text("About"),
       ),
       body: new Center(
-        child: new RaisedButton(
-          onPressed: () {
-            // Navigate back to first screen when tapped!
-          },
-          child: new Text('(About us)'),
-        ),
+//        child: new RaisedButton(
+//          onPressed: () {
+//            // Navigate back to first screen when tapped!
+//          },
+//          child: new Text('(About us)'),
+//        ),
       ),
     );
   }
