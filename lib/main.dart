@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bang_music/pages/about.dart';
-import 'package:bang_music/pages/library.dart';
-import 'package:bang_music/pages/search.dart';
 
-void main() => runApp(new BangMusic());
+void main() => runApp(new MyApp());
 
-class BangMusic extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -37,9 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: new Drawer(
           child: new ListView(
             children: <Widget> [
-              new DrawerHeader(
-                child: new Text('Bang Music'),
-              ),
+              new DrawerHeader(child: new Text('Bang Music'),),
               new ListTile(
                 title: new Text('My Library'),
                 onTap: () {
@@ -73,7 +68,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-<<<<<<< HEAD
 }
 
 class MyLibrary extends StatelessWidget {
@@ -117,6 +111,4 @@ class AboutScreen extends StatelessWidget {
       ),
     );
   }
-=======
->>>>>>> ce3b14bad438ab8c3d36450a44d9409d269b6a3e
 }
