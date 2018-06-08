@@ -77,14 +77,7 @@ class MyLibrary extends StatelessWidget {
       appBar: new AppBar(
         title: new Text("My Library"),
       ),
-      body: new Center(
-//        child: new RaisedButton(
-//          onPressed: () {
-//            // Navigate back to first screen when tapped!
-//          },
-//          child: new Text('This is your library.'),
-//        ),
-      ),
+      body: new Center(),
     );
   }
 }
@@ -96,14 +89,7 @@ class SearchScreen extends StatelessWidget {
       appBar: new AppBar(
         title: new Text("Search"),
       ),
-      body: new Center(
-//        child: new RaisedButton(
-//          onPressed: () {
-//            // Navigate back to first screen when tapped!
-//          },
-//          child: new Text('This is your search page.'),
-//        ),
-      ),
+      body: new Center(),
     );
   }
 }
@@ -116,12 +102,12 @@ class AboutScreen extends StatelessWidget {
         title: new Text("About"),
       ),
       body: new Center(
-//        child: new RaisedButton(
-//          onPressed: () {
-//            // Navigate back to first screen when tapped!
-//          },
-//          child: new Text('(About us)'),
-//        ),
+        child: new Text(
+          'Hello! This is the about page. Bang Music is an open source app.',
+          textAlign: TextAlign.center,
+          overflow: TextOverflow.ellipsis,
+          style: new TextStyle(fontWeight: FontWeight.normal, color: Colors.black),
+        ),
       ),
     );
   }
