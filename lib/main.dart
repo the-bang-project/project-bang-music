@@ -81,7 +81,7 @@ class MyLibrary extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("My Library"),
+        title: new Text("Library"),
       ),
       body: new Center(),
     );
@@ -117,6 +117,4 @@ class AboutScreen extends StatelessWidget {
       ),
     );
   }
-=======
->>>>>>> ce3b14bad438ab8c3d36450a44d9409d269b6a3e
 }
