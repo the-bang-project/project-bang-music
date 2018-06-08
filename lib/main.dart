@@ -102,9 +102,6 @@ class AboutScreen extends StatelessWidget {
         title: new Text("About"),
       ),
       body: new Center(
-        child: new Button(
-            'Check out our GitHub'
-        )
         child: new Text(
         'Bang Music is an open source app developed as part of The Bang Project.',
         textAlign: TextAlign.center,
@@ -120,9 +117,17 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Settings"),
-      ),
-      body: new Center()
+        appBar: new AppBar(
+          title: new Text("About"),
+        ),
+        theme: new ThemeData(
+          primaryColor: Colors.deepPurple,
+          backgroundColor: Colors.deepPurpleAccent,
+          textTheme: Theme
+              .of(context)
+              .textTheme
+              .apply(bodyColor: Colors.black),
+          // ignore: expected_token
+        ));
   }
 }
