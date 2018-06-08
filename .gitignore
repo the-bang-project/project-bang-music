@@ -19,6 +19,3 @@ build/
 ios/.generated/
 packages
 .flutter-plugins
-
-# Other
-pubspec.lock
