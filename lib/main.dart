@@ -21,13 +21,11 @@ class BangMusic extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-
   @override
   _MyHomePageState createState() => new _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -36,84 +34,41 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       drawer: new Drawer(
           child: new ListView(
-            children: <Widget> [
-              new DrawerHeader(
-                child: new Text('Bang Music'),
-              ),
-              new ListTile(
-                title: new Text('My Library'),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    new MaterialPageRoute(builder: (context) => new MyLibrary())
-                  );
-                },
-              ),
-              new ListTile(
-                title: new Text('Search'),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    new MaterialPageRoute(builder: (context) => new SearchScreen())
-                  );
-                },
-              ),
-              new Divider(),
-              new ListTile(
-                title: new Text('About'),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    new MaterialPageRoute(builder: (context) => new AboutScreen())
-                  );
-                },
-              ),
-            ],
-          )
-      ),
-    );
-  }
-}
-
-class MyLibrary extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Library"),
-      ),
-      body: new Center(),
-    );
-  }
-}
-
-class SearchScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Search"),
-      ),
-      body: new Center(),
-    );
-  }
-}
-
-class AboutScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("About"),
-      ),
-      body: new Center(
-        child: new Text(
-          'Hello! This is the about page. Bang Music is an open source app.',
-          textAlign: TextAlign.center,
-          overflow: TextOverflow.ellipsis,
-          style: new TextStyle(fontWeight: FontWeight.normal, color: Colors.black),
-        ),
-      ),
+        children: <Widget>[
+          new DrawerHeader(
+            child: new Text('Bang Music'),
+          ),
+          new ListTile(
+            title: new Text('My Library'),
+            onTap: () {
+              Navigator.push(context,
+                  new MaterialPageRoute(builder: (context) => new MyLibrary())
+              );
+            },
+          ),
+          new ListTile(
+            title: new Text('Search'),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  new MaterialPageRoute(
+                      builder: (context) => new SearchScreen())
+              );
+            },
+          ),
+          new Divider(),
+          new ListTile(
+            title: new Text('About'),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  new MaterialPageRoute(
+                      builder: (context) => new AboutScreen())
+              );
+            },
+          ),
+        ],
+      )),
     );
   }
 }
