@@ -73,8 +73,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
 class MyLibrary extends StatelessWidget {
@@ -118,6 +116,4 @@ class AboutScreen extends StatelessWidget {
       ),
     );
   }
-=======
->>>>>>> 3c572d265167f822e8e260383cee42ca65509daf
 }
