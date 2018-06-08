@@ -22,6 +22,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.7"
+  audioplayers:
+    dependency: transitive
+    description:
+      name: audioplayers
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -179,6 +186,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1"
+  music_player:
+    dependency: "direct dev"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: efc236878adfff2cd2bf75babc6a944a6232398e
+      url: "https://github.com/thosakwe/flutter_music_player.git"
+    source: git
+    version: "0.0.1"
   node_preamble:
     dependency: transitive
     description:
@@ -338,6 +354,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.0+4"
+  uuid:
+    dependency: transitive
+    description:
+      name: uuid
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.3"
   vector_math:
     dependency: transitive
     description:
