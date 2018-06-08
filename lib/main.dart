@@ -105,8 +105,9 @@ class AboutScreen extends StatelessWidget {
         child: new Text(
           'Hello! This is the about page. Bang Music is an open source app.',
           textAlign: TextAlign.center,
+
           overflow: TextOverflow.ellipsis,
-          style: new TextStyle(fontWeight: FontWeight.normal, color: Colors.black),
+          style: new TextStyle(fontWeight: FontWeight.normal, color: Colors.pink),
         ),
       ),
     );
