@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bang_music/pages/player.dart';
+import 'package:bang_music/pages/player/player.dart';
 import 'package:bang_music/utils/themes.dart';
 
 void main() => runApp(new MyMaterialApp());

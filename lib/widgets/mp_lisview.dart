@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:bang_music/data/song_data.dart';
-import 'package:bang_music/pages/now_playing.dart';
+import 'package:bang_music/pages/player/now_playing.dart';
 import 'package:bang_music/widgets/mp_circle_avatar.dart';
 import 'package:bang_music/widgets/mp_inherited.dart';
 import 'package:flutter/material.dart';

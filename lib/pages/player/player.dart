@@ -1,5 +1,5 @@
 import 'package:bang_music/data/song_data.dart';
-import 'package:bang_music/pages/root_page.dart';
+import 'package:bang_music/pages/player/root_page.dart';
 import 'package:bang_music/widgets/mp_inherited.dart';
 import 'package:flute_music_player/flute_music_player.dart';
 import 'package:flutter/material.dart';
