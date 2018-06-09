@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:bang_music/pages/about.dart';
 import 'package:bang_music/pages/library.dart';
 import 'package:bang_music/pages/search.dart';
+import 'package:bang_music/pages/root_page.dart';
 
 void main() => runApp(new BangMusic());
 
@@ -53,6 +54,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   context,
                   new MaterialPageRoute(
                       builder: (context) => new SearchScreen())
+              );
+            },
+          ),
+          new ListTile(
+            title: new Text('Player'),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  new MaterialPageRoute(
+                      builder: (context) => new RootPage())
               );
             },
           ),
