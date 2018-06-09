@@ -4,16 +4,16 @@ enum CurrentTheme { dark, light }
 
 
 final ThemeData darkTheme = new ThemeData(
-    brightness: Brightness.dark,
-    buttonColor: Colors.white,
+    brightness: Brightness.light,
+    buttonColor: Colors.pink,
     unselectedWidgetColor: Colors.white,
     primaryTextTheme:
-        new TextTheme(caption: new TextStyle(color: Colors.white)));
+        new TextTheme(caption: new TextStyle(color: Colors.black)));
 
 final ThemeData lightTheme = new ThemeData(
-    primaryColor: Colors.blue,
-    backgroundColor: Colors.white,
-    buttonColor: Colors.black,
+    primaryColor: Colors.pink,
+    backgroundColor: Colors.pink,
+    buttonColor: Colors.pink,
     unselectedWidgetColor: Colors.white,
     primaryTextTheme:
-        new TextTheme(caption: new TextStyle(color: Colors.white)));
+        new TextTheme(caption: new TextStyle(color: Colors.black)));
