@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:bang_music/widgets/mp_inherited.dart';
+import 'package:bang_music/widgets/player/mp_inherited.dart';
 import 'package:flutter/material.dart';
 import 'package:flute_music_player/flute_music_player.dart';
 class MPDrawer extends StatefulWidget {

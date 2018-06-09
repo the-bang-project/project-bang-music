@@ -1,4 +1,4 @@
-import 'package:bang_music/data/song_data.dart';
+import 'package:bang_music/data/player/song_data.dart';
 import 'package:flutter/material.dart';
 
 class MPInheritedWidget extends InheritedWidget {
