@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:bang_music/pages/menu/about.dart';
 import 'package:bang_music/pages/menu/library.dart';
 import 'package:bang_music/pages/menu/search.dart';
-import 'package:bang_music/pages/player/userPlayer.dart';
+import 'package:bang_music/pages/player/player_caller.dart';
 
 void main() => runApp(new BangMusic());
 
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Navigator.push(
                   context,
                   new MaterialPageRoute(
-                      builder: (context) => new MyMaterialApp())
+                      builder: (context) => new PlayerCaller())
               );
             },
           ),

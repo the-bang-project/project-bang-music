@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:ui';
-import 'package:bang_music/data/song_data.dart';
-import 'package:bang_music/widgets/mp_album_ui.dart';
-import 'package:bang_music/widgets/mp_blur_filter.dart';
-import 'package:bang_music/widgets/mp_blur_widget.dart';
-import 'package:bang_music/widgets/mp_control_button.dart';
+import 'package:bang_music/data/player/song_data.dart';
+import 'package:bang_music/widgets/player/mp_album_ui.dart';
+import 'package:bang_music/widgets/player/mp_blur_filter.dart';
+import 'package:bang_music/widgets/player/mp_blur_widget.dart';
+import 'package:bang_music/widgets/player/mp_control_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flute_music_player/flute_music_player.dart';
 

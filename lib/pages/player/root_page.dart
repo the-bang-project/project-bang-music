@@ -1,6 +1,6 @@
 import 'package:bang_music/pages/player/now_playing.dart';
-import 'package:bang_music/widgets/mp_inherited.dart';
-import 'package:bang_music/widgets/mp_lisview.dart';
+import 'package:bang_music/widgets/player/mp_inherited.dart';
+import 'package:bang_music/widgets/player/mp_lisview.dart';
 import 'package:flute_music_player/flute_music_player.dart';
 import 'package:flutter/material.dart';
 
